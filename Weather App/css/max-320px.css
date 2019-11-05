@@ -1,0 +1,57 @@
+Html, body {
+  height: 100%;
+
+}
+
+.grandweatherBox {
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+.weatherBox {
+  background: #80D7FF;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+
+}
+
+
+
+
+input#inp {
+  position: relative;
+  background: transparent;
+  margin: auto;
+  width: 50%;
+  border: 0;
+  border-bottom: .1em solid;
+  font-size: 1em;
+  outline: none;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+input#submitweather {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  border-radius: 50%;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+}
+
+@-webkit-keyframes autofill {
+    to {
+      color: black;
+      background: transparent;
+    }
+  }
+
+  input#inp:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+  }

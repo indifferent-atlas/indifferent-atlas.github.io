@@ -1,0 +1,27 @@
+body {
+  background: #80D7FF;
+
+}
+
+.inp {
+  position: relative;
+  background: #80D7FF;
+  margin: auto;
+  width: 100%;
+}
+
+.label {
+  position: absolute;
+  background: #80D7FF;
+//  top: 16px;
+//  left: 0;
+}
+
+.border {
+position: absolute;
+bottom: 0;
+left: 0;
+height: 2px;
+width: 100%;
+background: #80D7FF;
+}
