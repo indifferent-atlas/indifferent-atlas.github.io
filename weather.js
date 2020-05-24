@@ -7,7 +7,7 @@ $('#target').submit(function () {
      city.replace(whitespace, '%20');
   }
 
-  let weatherAPI= `http://api.openweathermap.org/data/2.5/weather?q=${city},us&appid=46384e3049b3e509e390ec3b01ec00c4`;
+  let weatherAPI= `http://api.openweathermap.org/data/2.5/weather?q=${city},us&appid=46384e3049b3e509e390ec3b01ec00c4;
 
   const cityOptions = {
 //    "id": 4781756,
